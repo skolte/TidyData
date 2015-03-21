@@ -12,7 +12,7 @@ This code book explains the following:
 Following guidelines were observed when naming the variables in the tidy dataset. A unique, unambiguous name has been given to each variable. Variables names consist of one string ONLY, consisting of letters and dots (.). The form for variable names is all lower case letters and words separated with dots (variable.name). Spaces have not been used in variables names similar to most other statistical programs, even if data entry programs like Excel or Access will allow this. Variables names have been entered at the top of each column. Variables names are chosen to be long enough to be meaningful, but short enough to be easy to handle. Variables labels (below) clarify what is coded in each variable more substantially. 
 
 The tidy dataset has following 68 variables:
-```
+
 * subject.identifier
 * activity 
 * mean.X.time.bodymotion.accelerometer
@@ -81,82 +81,150 @@ The tidy dataset has following 68 variables:
 * std.dev.freq.magnitude.bodymotion.gyroscope
 * mean.freq.magnitude.bodymotion.jerk.gyroscope
 * std.dev.freq.magnitude.bodymotion.jerk.gyroscope
-```
+
 
 #Variable Labels
 This section provides description for each variable in the tidy dataset. 
 
-```
-* subject.identifier : An identifier of the subject who carried out the experiment.
-* activity : Activity from one the six activities WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
-* mean.X.time.bodymotion.accelerometer : Mean Time for the Body Motion Component of Acceleration Signal from Accelerometer X axis
-* mean.Y.time.bodymotion.accelerometer : Mean Time for the Body Motion Component of Acceleration Signal from Accelerometer Y axis
-* mean.Z.time.bodymotion.accelerometer : Mean Time for the Body Motion Component of Acceleration Signal from Accelerometer Z axis
-* std.dev.X.time.bodymotion.accelerometer : Standard Deviation Time for the Body Motion Component of Acceleration Signal from Accelerometer X axis
-* std.dev.Y.time.bodymotion.accelerometer : Standard Deviation Time for the Body Motion Component of Acceleration Signal from Accelerometer Y axis
-* std.dev.Z.time.bodymotion.accelerometer : Standard Deviation Time for the Body Motion Component of Acceleration Signal from Accelerometer Z axis
-* mean.X.time.gravitational.accelerometer : Mean Time for the Gravitational Component of Acceleration from Accelerometer X axis
-* mean.Y.time.gravitational.accelerometer : Mean Time for the Gravitational Component of Acceleration from Accelerometer Y axis
-* mean.Z.time.gravitational.accelerometer : Mean Time for the Gravitational Component of Acceleration from Accelerometer Z axis
-* std.dev.X.time.gravitational.accelerometer : Standard Deviation Time for the Gravitational Component of Acceleration from Accelerometer X axis
-* std.dev.Y.time.gravitational.accelerometer : Standard Deviation Time for the Gravitational Component of Acceleration from Accelerometer Y axis
-* std.dev.Z.time.gravitational.accelerometer : Standard Deviation Time for the Gravitational Component of Acceleration from Accelerometer Z axis
-* mean.X.time.bodymotion.jerk.accelerometer : Mean Time for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer X axis
-* mean.Y.time.bodymotion.jerk.accelerometer : Mean Time for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Y axis
-* mean.Z.time.bodymotion.jerk.accelerometer : Mean Time for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Z axis
-* std.dev.X.time.bodymotion.jerk.accelerometer : Standard Deviation Time for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer X axis
-* std.dev.Y.time.bodymotion.jerk.accelerometer : Standard Deviation Time for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Y axis
-* std.dev.Z.time.bodymotion.jerk.accelerometer : Standard Deviation Time for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Z axis
-* mean.X.time.bodymotion.accelerometer : Mean Time for the Body Motion Component of Acceleration Signal from Gyroscope X axis
-* mean.Y.time.bodymotion.accelerometer : Mean Time for the Body Motion Component of Acceleration Signal from Gyroscope Y axis
-* mean.Z.time.bodymotion.accelerometer : Mean Time for the Body Motion Component of Acceleration Signal from Gyroscope Z axis
-* std.dev.X.time.bodymotion.accelerometer : Standard Deviation Time for the Body Motion Component of Acceleration Signal from Gyroscope X axis
-* std.dev.Y.time.bodymotion.accelerometer : Standard Deviation Time for the Body Motion Component of Acceleration Signal from Gyroscope Y axis
-* std.dev.Z.time.bodymotion.accelerometer : Standard Deviation Time for the Body Motion Component of Acceleration Signal from Gyroscope Z axis
-* mean.X.time.bodymotion.jerk.accelerometer : Mean Time for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope X axis
-* mean.Y.time.bodymotion.jerk.accelerometer : Mean Time for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Y axis
-* mean.Z.time.bodymotion.jerk.accelerometer : Mean Time for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Z axis
-* std.dev.X.time.bodymotion.jerk.accelerometer : Standard Deviation Time for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope X axis
-* std.dev.Y.time.bodymotion.jerk.accelerometer : Standard Deviation Time for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Y axis
-* std.dev.Z.time.bodymotion.jerk.accelerometer : Standard Deviation Time for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Z axis
-* mean.time.magnitude.bodymotion.accelerometer : Mean Time for the Magnitude of Body Motion Signal from Accelerometer
-* std.dev.time.magnitude.bodymotion.accelerometer : Standard Deviation Time for the Magnitude of Body Motion Signal from Accelerometer
-* mean.time.magnitude.gravitational.accelerometer : Mean Time for the Magnitude of Gravitational Component from Accelerometer
-* std.dev.time.magnitude.gravitational.accelerometer : Standard Deviation Time for the Magnitude of Gravitational Component from Accelerometer
-* mean.time.magnitude.bodymotion.jerk.accelerometer : Mean Time for the Magnitude of Body Motion Jerk Signal from Accelerometer
-* std.dev.time.magnitude.bodymotion.jerk.accelerometer : Standard Deviation Time for the Magnitude of Body Motion Jerk Signal from Accelerometer
-* mean.time.magnitude.gravitational.gyroscope : Mean Time for the Magnitude of Gravitational Component from Gyroscope
-* std.dev.time.magnitude.gravitational.gyroscope : Standard Deviation Time for the Magnitude of Gravitational Component from Gyroscope
-* mean.time.magnitude.bodymotion.jerk.gyroscope : Mean Time for the Magnitude of Body Motion Jerk Signal from Gyroscope
-* std.dev.time.magnitude.bodymotion.jerk.gyroscope : Standard Deviation Time for the Magnitude of Body Motion Jerk Signal from Gyroscope
-* mean.X.freq.bodymotion.accelerometer : Mean Frequency for the Body Motion Component of Acceleration Signal from Accelerometer X axis
-* mean.Y.freq.bodymotion.accelerometer : Mean Frequency for the Body Motion Component of Acceleration Signal from Accelerometer Y axis
-* mean.Z.freq.bodymotion.accelerometer : Mean Frequency for the Body Motion Component of Acceleration Signal from Accelerometer Z axis
-* std.dev.X.freq.bodymotion.accelerometer : Standard Deviation Frequency for the Body Motion Component of Acceleration Signal from Accelerometer X axis
-* std.dev.Y.freq.bodymotion.accelerometer : Standard Deviation Frequency for the Body Motion Component of Acceleration Signal from Accelerometer Y axis
-* std.dev.Z.freq.bodymotion.accelerometer : Standard Deviation Frequency for the Body Motion Component of Acceleration Signal from Accelerometer Z axis
-* mean.X.freq.bodymotion.jerk.accelerometer : Mean Frequency for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer X axis
-* mean.Y.freq.bodymotion.jerk.accelerometer : Mean Frequency for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Y axis
-* mean.Z.freq.bodymotion.jerk.accelerometer : Mean Frequency for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Z axis
-* std.dev.X.freq.bodymotion.jerk.accelerometer : Standard Deviation Frequency for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer X axis
-* std.dev.Y.freq.bodymotion.jerk.accelerometer : Standard Deviation Frequency for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Y axis
-* std.dev.Z.freq.bodymotion.jerk.accelerometer : Standard Deviation Frequency for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Z axis
-* mean.X.freq.bodymotion.jerk.gyroscope : Mean Frequency for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope X axis
-* mean.Y.freq.bodymotion.jerk.gyroscope : Mean Frequency for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Y axis
-* mean.Z.freq.bodymotion.jerk.gyroscope : Mean Frequency for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Z axis
-* std.dev.X.freq.bodymotion.jerk.gyroscope : Standard Deviation Frequency for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope X axis
-* std.dev.Y.freq.bodymotion.jerk.gyroscope : Standard Deviation Frequency for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Y axis
-* std.dev.Z.freq.bodymotion.jerk.gyroscope : Standard Deviation Frequency for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Z axis
-* mean.freq.magnitude.bodymotion.accelerometer : Mean Frequency for the Magnitude of Body Motion Signal from Accelerometer
-* std.dev.freq.magnitude.bodymotion.accelerometer : Standard Deviation Frequency for the Magnitude of Body Motion Signal from Accelerometer
-* mean.freq.magnitude.bodymotion.jerk.accelerometer : Mean Frequency for the Magnitude of Body Motion Jerk Signal from Accelerometer
-* std.dev.freq.magnitude.bodymotion.jerk.accelerometer : Standard Deviation Frequency for the Magnitude of Body Motion Jerk Signal from Accelerometer
-* mean.freq.magnitude.bodymotion.gyroscope : Mean Frequency for the Magnitude of Body Motion Signal from Gyroscope
-* std.dev.freq.magnitude.bodymotion.gyroscope : Standard Deviation Frequency for the Magnitude of Body Motion Signal from Gyroscope
-* mean.freq.magnitude.bodymotion.jerk.gyroscope : Mean Frequency for the Magnitude of Body Motion Jerk Signal from Gyroscope
-* std.dev.freq.magnitude.bodymotion.jerk.gyroscope : Standard Deviation Frequency for the Magnitude of Body Motion Jerk Signal from Gyroscope
 
-```
+* subject.identifier:
+An identifier of the subject who carried out the experiment.
+* activity:
+Activity from one the six activities WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+* mean.X.time.bodymotion.accelerometer:
+Mean Time for the Body Motion Component of Acceleration Signal from Accelerometer X axis
+* mean.Y.time.bodymotion.accelerometer:
+Mean Time for the Body Motion Component of Acceleration Signal from Accelerometer Y axis
+* mean.Z.time.bodymotion.accelerometer:
+Mean Time for the Body Motion Component of Acceleration Signal from Accelerometer Z axis
+* std.dev.X.time.bodymotion.accelerometer:
+Standard Deviation Time for the Body Motion Component of Acceleration Signal from Accelerometer X axis
+* std.dev.Y.time.bodymotion.accelerometer:
+Standard Deviation Time for the Body Motion Component of Acceleration Signal from Accelerometer Y axis
+* std.dev.Z.time.bodymotion.accelerometer:
+Standard Deviation Time for the Body Motion Component of Acceleration Signal from Accelerometer Z axis
+* mean.X.time.gravitational.accelerometer:
+Mean Time for the Gravitational Component of Acceleration from Accelerometer X axis
+* mean.Y.time.gravitational.accelerometer:
+Mean Time for the Gravitational Component of Acceleration from Accelerometer Y axis
+* mean.Z.time.gravitational.accelerometer:
+Mean Time for the Gravitational Component of Acceleration from Accelerometer Z axis
+* std.dev.X.time.gravitational.accelerometer:
+Standard Deviation Time for the Gravitational Component of Acceleration from Accelerometer X axis
+* std.dev.Y.time.gravitational.accelerometer:
+Standard Deviation Time for the Gravitational Component of Acceleration from Accelerometer Y axis
+* std.dev.Z.time.gravitational.accelerometer:
+Standard Deviation Time for the Gravitational Component of Acceleration from Accelerometer Z axis
+* mean.X.time.bodymotion.jerk.accelerometer:
+Mean Time for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer X axis
+* mean.Y.time.bodymotion.jerk.accelerometer:
+Mean Time for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Y axis
+* mean.Z.time.bodymotion.jerk.accelerometer:
+Mean Time for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Z axis
+* std.dev.X.time.bodymotion.jerk.accelerometer:
+Standard Deviation Time for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer X axis
+* std.dev.Y.time.bodymotion.jerk.accelerometer:
+Standard Deviation Time for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Y axis
+* std.dev.Z.time.bodymotion.jerk.accelerometer:
+Standard Deviation Time for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Z axis
+* mean.X.time.bodymotion.accelerometer:
+Mean Time for the Body Motion Component of Acceleration Signal from Gyroscope X axis
+* mean.Y.time.bodymotion.accelerometer:
+Mean Time for the Body Motion Component of Acceleration Signal from Gyroscope Y axis
+* mean.Z.time.bodymotion.accelerometer:
+Mean Time for the Body Motion Component of Acceleration Signal from Gyroscope Z axis
+* std.dev.X.time.bodymotion.accelerometer:
+Standard Deviation Time for the Body Motion Component of Acceleration Signal from Gyroscope X axis
+* std.dev.Y.time.bodymotion.accelerometer:
+Standard Deviation Time for the Body Motion Component of Acceleration Signal from Gyroscope Y axis
+* std.dev.Z.time.bodymotion.accelerometer:
+Standard Deviation Time for the Body Motion Component of Acceleration Signal from Gyroscope Z axis
+* mean.X.time.bodymotion.jerk.accelerometer:
+Mean Time for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope X axis
+* mean.Y.time.bodymotion.jerk.accelerometer:
+Mean Time for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Y axis
+* mean.Z.time.bodymotion.jerk.accelerometer:
+Mean Time for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Z axis
+* std.dev.X.time.bodymotion.jerk.accelerometer:
+Standard Deviation Time for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope X axis
+* std.dev.Y.time.bodymotion.jerk.accelerometer:
+Standard Deviation Time for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Y axis
+* std.dev.Z.time.bodymotion.jerk.accelerometer:
+Standard Deviation Time for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Z axis
+* mean.time.magnitude.bodymotion.accelerometer:
+Mean Time for the Magnitude of Body Motion Signal from Accelerometer
+* std.dev.time.magnitude.bodymotion.accelerometer:
+Standard Deviation Time for the Magnitude of Body Motion Signal from Accelerometer
+* mean.time.magnitude.gravitational.accelerometer:
+Mean Time for the Magnitude of Gravitational Component from Accelerometer
+* std.dev.time.magnitude.gravitational.accelerometer:
+Standard Deviation Time for the Magnitude of Gravitational Component from Accelerometer
+* mean.time.magnitude.bodymotion.jerk.accelerometer:
+Mean Time for the Magnitude of Body Motion Jerk Signal from Accelerometer
+* std.dev.time.magnitude.bodymotion.jerk.accelerometer:
+Standard Deviation Time for the Magnitude of Body Motion Jerk Signal from Accelerometer
+* mean.time.magnitude.gravitational.gyroscope:
+Mean Time for the Magnitude of Gravitational Component from Gyroscope
+* std.dev.time.magnitude.gravitational.gyroscope:
+Standard Deviation Time for the Magnitude of Gravitational Component from Gyroscope
+* mean.time.magnitude.bodymotion.jerk.gyroscope:
+Mean Time for the Magnitude of Body Motion Jerk Signal from Gyroscope
+* std.dev.time.magnitude.bodymotion.jerk.gyroscope:
+Standard Deviation Time for the Magnitude of Body Motion Jerk Signal from Gyroscope
+* mean.X.freq.bodymotion.accelerometer:
+Mean Frequency for the Body Motion Component of Acceleration Signal from Accelerometer X axis
+* mean.Y.freq.bodymotion.accelerometer:
+Mean Frequency for the Body Motion Component of Acceleration Signal from Accelerometer Y axis
+* mean.Z.freq.bodymotion.accelerometer:
+Mean Frequency for the Body Motion Component of Acceleration Signal from Accelerometer Z axis
+* std.dev.X.freq.bodymotion.accelerometer:
+Standard Deviation Frequency for the Body Motion Component of Acceleration Signal from Accelerometer X axis
+* std.dev.Y.freq.bodymotion.accelerometer:
+Standard Deviation Frequency for the Body Motion Component of Acceleration Signal from Accelerometer Y axis
+* std.dev.Z.freq.bodymotion.accelerometer:
+Standard Deviation Frequency for the Body Motion Component of Acceleration Signal from Accelerometer Z axis
+* mean.X.freq.bodymotion.jerk.accelerometer:
+Mean Frequency for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer X axis
+* mean.Y.freq.bodymotion.jerk.accelerometer:
+Mean Frequency for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Y axis
+* mean.Z.freq.bodymotion.jerk.accelerometer:
+Mean Frequency for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Z axis
+* std.dev.X.freq.bodymotion.jerk.accelerometer:
+Standard Deviation Frequency for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer X axis
+* std.dev.Y.freq.bodymotion.jerk.accelerometer:
+Standard Deviation Frequency for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Y axis
+* std.dev.Z.freq.bodymotion.jerk.accelerometer:
+Standard Deviation Frequency for the Body Motion Jerk Signal of Acceleration Signal from Accelerometer Z axis
+* mean.X.freq.bodymotion.jerk.gyroscope:
+Mean Frequency for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope X axis
+* mean.Y.freq.bodymotion.jerk.gyroscope:
+Mean Frequency for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Y axis
+* mean.Z.freq.bodymotion.jerk.gyroscope:
+Mean Frequency for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Z axis
+* std.dev.X.freq.bodymotion.jerk.gyroscope:
+Standard Deviation Frequency for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope X axis
+* std.dev.Y.freq.bodymotion.jerk.gyroscope:
+Standard Deviation Frequency for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Y axis
+* std.dev.Z.freq.bodymotion.jerk.gyroscope:
+Standard Deviation Frequency for the Body Motion Jerk Signal of Acceleration Signal from Gyroscope Z axis
+* mean.freq.magnitude.bodymotion.accelerometer:
+Mean Frequency for the Magnitude of Body Motion Signal from Accelerometer
+* std.dev.freq.magnitude.bodymotion.accelerometer:
+Standard Deviation Frequency for the Magnitude of Body Motion Signal from Accelerometer
+* mean.freq.magnitude.bodymotion.jerk.accelerometer:
+Mean Frequency for the Magnitude of Body Motion Jerk Signal from Accelerometer
+* std.dev.freq.magnitude.bodymotion.jerk.accelerometer:
+Standard Deviation Frequency for the Magnitude of Body Motion Jerk Signal from Accelerometer
+* mean.freq.magnitude.bodymotion.gyroscope:
+Mean Frequency for the Magnitude of Body Motion Signal from Gyroscope
+* std.dev.freq.magnitude.bodymotion.gyroscope:
+Standard Deviation Frequency for the Magnitude of Body Motion Signal from Gyroscope
+* mean.freq.magnitude.bodymotion.jerk.gyroscope:
+Mean Frequency for the Magnitude of Body Motion Jerk Signal from Gyroscope
+* std.dev.freq.magnitude.bodymotion.jerk.gyroscope:
+Standard Deviation Frequency for the Magnitude of Body Motion Jerk Signal from Gyroscope
+
+
 
 #Variables Formats
 All variables in the tidy dataset except 'Activity' and 'Subject' use numeric data type to specify the measurements.
