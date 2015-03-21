@@ -21,13 +21,12 @@ run_analysis <- function()
         if(!require(dplyr)){install.packages("dplyr")}
         
         # Folder with the dataset to be analyzed needs to be in same place as the script. 
-        # Set Home dir : ./UCI HAR DATASET/
+        # Set Working Directory : ./UCI HAR DATASET/
         tryCatch({
                 wd <- getwd()
                 if(!grepl("UCI",wd))
                 {
                         setwd("./UCI HAR DATASET")
-                        
                 }
         }, error = function(e) {
                 message("Error : The directory with 'run_analysis.R' script does not have 'UCI HAR DATASET'. Please place the script in the folder where 'UCI HAR DATASET' is located and try again.")
