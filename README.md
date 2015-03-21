@@ -1,13 +1,13 @@
 #### Author : Sandeep Kolte
 #### Date : 3/19/2015
 
-# ReadMe.md
+# README.md
 ##Contents
 * ReadMe.md
 * CodeBook.txt
 * run_analysis.R
 
-##ReadMe.md
+##README.md
 This file.
 
 ##CodeBook.txt
