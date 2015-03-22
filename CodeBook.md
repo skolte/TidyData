@@ -9,7 +9,8 @@ This code book explains the following:
 * Information about the experimental design.
 
 #Variable Names From Tidy Dataset
-Following guidelines were observed when naming the variables in the tidy dataset. A unique, unambiguous name has been given to each variable. Variables names consist of one string ONLY, consisting of letters and dots (.). The form for variable names is all lower case letters and words separated with dots (variable.name). Spaces have not been used in variables names similar to most other statistical programs, even if data entry programs like Excel or Access will allow this. Variables names have been entered at the top of each column. Variables names are chosen to be long enough to be meaningful, but short enough to be easy to handle. Variables labels (below) clarify what is coded in each variable more substantially. 
+Following guidelines were observed when naming the variables in the tidy dataset. A unique, unambiguous name has been given to each variable. Variables names consist of one string ONLY, consisting of letters and dots (.). The form for variable names is all lower case letters and words separated with dots (variable.name). Spaces have not been used in variables names similar to most other statistical programs, even if data entry programs like Excel or Access will allow this. Variables names have been entered at the top of each column. Variables names are chosen to be long enough to be meaningful, but short enough to be easy to handle. Variables labels (below) clarify what is coded in each variable more substantially. [4]
+                
 
 The tidy dataset has following 68 variables:
 
@@ -240,10 +241,10 @@ This provides a definite guideline when choosing the variables that are to be in
 
 #Study Design 
 This section contains thorough description of how data was acquired.
-The original dataset, Human Activity Recognition Using Smartphones Dataset Version 1.0, was compiled by a group of students working in "Smartlab - Non Linear Complex Systems Laboratory".
+The original dataset, Human Activity Recognition Using Smartphones Dataset Version 1.0, was compiled by a group of students working in "Smartlab - Non Linear Complex Systems Laboratory".[1]
 
 At the time of writing this codebook, the original dataset for this project is available at :
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  [2]
 
 This project simply cleans the original dataset, rearranges data, renames features and provides a tidy dataset, no other experimental steps are involved.
 
@@ -360,5 +361,18 @@ Output : Tidy Data
 
 The final tidy dataset contains 180 observation rows with a total of 68 columns.
 
-Guidelines for this codebook have been obtained from  Interuniversity Consortium for Political and Social Research (ICPSR). 
+Guidelines for this codebook have been obtained from  Interuniversity Consortium for Political and Social Research (ICPSR) [3]. 
 For more information please visit : http://www.icpsr.umich.edu/icpsrweb/ICPSR/support/faqs/2006/01/what-is-codebook
+
+#References
+[1] Human Activity Recognition Using Smartphones Data Set 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+[2] Original Dataset
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+[3] ICPSR Codebook Guidelines
+http://www.icpsr.umich.edu/icpsrweb/ICPSR/support/faqs/2006/01/what-is-codebook
+
+[4] # Google's R Style Guide to name the variables. 
+https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml#identifiers

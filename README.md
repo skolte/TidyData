@@ -30,10 +30,10 @@ Information about the experimental design.
 ###Original Data
 The original dataset, Human Activity Recognition Using Smartphones Dataset Version 1.0, was compiled by a group of students working in "Smartlab - Non Linear Complex Systems Laboratory".
 The data linked to from the course website represents data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones [1]
 
 The original dataset for this project is available at :
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip [2]
 
 ### Requirements
 Create one R script called run_analysis.R that does the following. 
@@ -81,4 +81,16 @@ Next, the script calls 'getReadableColumnNames()' method to appropriately label 
 It is important to note that "Google's R Style Guide" is referenced for guidelines when naming the variables. For more info : https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml#identifiers
 
 Finally, the script creates an independent tidy data set with the average of each variable for each activity and each subject. The final tidy dataset contains 180 observation rows with a total of 68 columns.
-        
+
+#References
+[1] Human Activity Recognition Using Smartphones Data Set 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+[2] Original Dataset
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+[3] ICPSR Codebook Guidelines
+http://www.icpsr.umich.edu/icpsrweb/ICPSR/support/faqs/2006/01/what-is-codebook
+
+[4] # Google's R Style Guide to name the variables. 
+https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml#identifiers
