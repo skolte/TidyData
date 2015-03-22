@@ -374,5 +374,5 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 [3] ICPSR Codebook Guidelines
 http://www.icpsr.umich.edu/icpsrweb/ICPSR/support/faqs/2006/01/what-is-codebook
 
-[4] # Google's R Style Guide to name the variables. 
+[4] Google's R Style Guide to name the variables. 
 https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml#identifiers
